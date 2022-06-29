@@ -1,7 +1,7 @@
 /**
  * 
  */
-package javaProgamacaofuncional;
+package javaProgamacaofuncional.exerc1;
 
 import org.junit.Test;
 
@@ -15,7 +15,10 @@ public class Exec1 {
 	@Test
 	public void exec1() {
 		
-		System.out.println("Teste Java Funcional");
+		 Torcedor t1 = new Fluminense();
+	        t1.torcer();
+	        t1 = new Gama();
+	        t1.torcer();
 		
 		
 		
